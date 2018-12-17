@@ -30,3 +30,14 @@ koa2学习
             return parm
         }
     ```
+- 给所有的route 加一个层级 
+  - 如下配置
+    ```
+    const router=new Router(
+        {
+            prefix:'/mesapi'
+        }
+    )
+    ```
+- get请求 获取问号参数
+  -  ctx.query

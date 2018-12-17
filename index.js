@@ -17,6 +17,9 @@ async function route(url){
         case '/':
             page='index.html'
             break
+        case '/regist':
+            page='regist.html'
+            break
         default:
             page='404.html'
             break
